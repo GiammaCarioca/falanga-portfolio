@@ -1,0 +1,165 @@
+body {
+	background: #FEB7C2; /* rosa */
+	color: #0B24FB; /* azul */
+	font-family: "CircularStd-Bold", sans-serif;
+	font-size: 32px;
+	margin: 0;
+}
+
+.sketch {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	position: relative;
+}
+
+.container:after, .container:before {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.about h1{
+	font-size: 32px;
+	margin-bottom: 0;
+	padding-top: 90px;
+	padding-left: 190px;
+}
+
+.about p {
+	margin-top: 0;
+	padding-left: 190px;
+}
+
+.about em {
+	font-style: normal;
+}
+
+.about a {
+	color: #0B24FB;
+	text-decoration: underline;
+}
+
+.about a:hover {
+	text-decoration: none;
+	text-shadow:
+		rgba(0, 0, 0, 0.498039) -1px -1px 0px,
+		rgba(0, 0, 0, 0.498039) -1px 1px 0px,
+		rgba(0, 0, 0, 0.498039) 1px 1px 0px,
+		rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+}
+
+#arrow {
+	text-align: center;
+	margin-top: 148px;
+	margin-bottom: 510px;
+}
+
+#arrow img {
+	max-width: 35px;
+	max-height: 35px;
+}
+
+h2 {
+	font-size: 32px;
+	text-transform: uppercase;
+	padding-top: 40px;
+	letter-spacing: 0.01em;
+	text-align: center;
+	text-shadow:
+		rgba(0, 0, 0, 0.498039) -1px -1px 0px,
+		rgba(0, 0, 0, 0.498039) -1px 1px 0px,
+		rgba(0, 0, 0, 0.498039) 1px 1px 0px,
+		rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+}
+
+.works {
+	height: 320px;
+	width: 33%;
+	float: left;
+	text-align: center;
+	margin-top: 120px;
+	/*background: green;*/
+}
+
+.works img {
+	max-width: 40%;
+	/*background: yellow;*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li h3 {
+	font-family: "Courier New";
+	font-weight: lighter;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#pointillisme img {
+	max-width: 35%;
+	padding-top: 60px;
+}
+
+#plastic img {
+	max-width: 60%;
+	padding-top: 40px;
+}
+
+.soon1, .soon2 {
+	display: none;
+}
+
+.show {
+	display: block;
+	font-size: 14px;
+	font-family: "Courier New";
+	color: #FC391D;
+	text-transform: uppercase;
+}
+
+.contato {
+	display: block;
+	margin: auto;
+	padding-top: 356px;
+	padding-bottom: 356px;
+	text-align: center;
+	position: float;
+	clear: both;
+}
+
+.contato a {
+	color: #0B24FB;
+	text-decoration: underline;
+} 
+
+.contato a:hover {
+	text-decoration: none;
+	text-shadow:
+		rgba(0, 0, 0, 0.498039) -1px -1px 0px,
+		rgba(0, 0, 0, 0.498039) -1px 1px 0px,
+		rgba(0, 0, 0, 0.498039) 1px 1px 0px,
+		rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+} 
+
+.copyright {
+	font-family: "Futura Light", sans-serif;
+	font-weight: lighter;
+	font-size: 10px;
+	color: #999999;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 36px;
+}
