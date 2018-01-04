@@ -1,13 +1,16 @@
 body {
-	background: #FEB7C2; /* rosa */
+	background: rgb(253, 181, 191); /* rosa */
 	color: #0B24FB; /* azul */
 	font-family: "CircularStd-Bold", sans-serif;
 	font-size: 32px;
 	margin: 0;
 }
 
-.sketch {
-	width: 100%;
+#canvasContainer {
+  position:absolute;
+  display: block;
+	top:0;
+	left:0;
 }
 
 .container {
