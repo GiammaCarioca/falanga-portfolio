@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>Nino Falanga | Graphic & UI Designer</title>
 		<link rel="stylesheet" href="css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="js/main.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
 	</head>
 	<body>
-
-		<!-- <iframe class="sketch" src="https://www.openprocessing.org/sketch/492864/embed/" width=1165 height=573 style="border:none;"</iframe> -->
-
+		
+		<!-- Canvas Intro -->
+		<div id="canvasContainer">
+			<script src="js/sketch.js"></script>
+		</div>
+		<!-- End Canvas Intro -->
+		
 		<article class="container about">
 			<h1>Hey! I'm Nino Falanga!</h1>
 			<p>Creator of <a href="https://www.instagram.com/wonderpapers/" target="_blank">Wonderpapers</a> and internationally <br>
 			experienced <em>Graphic & UI/UX Designer</em>, <br> based in Rio de Janeiro. My focus lies on <em>Branding</em>, <br> Culture and poster design. <a href="cv.html">This</a> is my CV. <br> <a href="#">Below</a> you can find a selection of my works. <br> And <a href="https://static.wixstatic.com/media/544ee1_c1c24d72bc744aa590a0a427f118de1d~mv2.jpg/v1/fill/w_960,h_720,al_c,q_85/544ee1_c1c24d72bc744aa590a0a427f118de1d~mv2.webp">this</a> is a pretty nice picture of my Graduation Day <br> at Central Saint Martins.</p>
 		</article>
-		<div id="arrow"><a href="#jump"><img src="img/arrow_big.png" alt="go to Selected Works"></a></div>
+		<div id="arrow"><a href="#jump"><img src="img/arrow.png" alt="go to Selected Works"></a></div>
 
 		<section class="container">
 			<h2 id="jump">Selected Works</h2>
@@ -29,18 +35,18 @@
 				<li class="works" id="pointillisme">
 					<img src="img/pointillisme-musique.png" alt="Pointillisme Musique">
 					<h3>Pointillisme Musique</h3>
-					<span class="soon1">COMING SOON</span>
+					<span id="pointillisme">COMING SOON</span>
 				</li>
 					
 				<li class="works" id="metas">
 					<img src="img/metas.gif" alt="App Metas">
 					<h3>Metas</h3>
-					<span class="soon2">COMING SOON</span>
+					<span id="metas">COMING SOON</span>
 				</li>
 		
 				<li class="works">
-					<a href="i-ed.html"><img src="img/i-ed.png" alt="App I-ED"></a>
-					<h3>I-ED</h3>
+					<a href="i-ed.html"><img src="img/i-ed.png" alt="App I.ED"></a>
+					<h3>I.ED</h3>
 				</li>
 
 				<li class="works" id="plastic">

@@ -1,13 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-	background: #FEB7C2; /* rosa */
+	background: rgb(253, 181, 191); /* rosa */
 	color: #0B24FB; /* azul */
 	font-family: "CircularStd-Bold", sans-serif;
 	font-size: 32px;
 	margin: 0;
-}
-
-.sketch {
-	width: 100%;
 }
 
 .container {
@@ -15,15 +18,6 @@ body {
 	margin: 0 auto;
 	padding: 0px;
 	position: relative;
-}
-
-.container:after, .container:before {
-	content: " ";
-	display: table;
-}
-
-.container:after {
-	clear: both;
 }
 
 .about h1{
@@ -86,12 +80,12 @@ h2 {
 	float: left;
 	text-align: center;
 	margin-top: 120px;
-	/*background: green;*/
+	background: green;
 }
 
 .works img {
 	max-width: 40%;
-	/*background: yellow;*/
+	background: yellow;
 }
 
 ul {
