@@ -5,10 +5,6 @@ header {
 	margin-bottom: 60px; 
 }
 
-header h2 {
-	padding: 0;  
-}
-
 .arrow_left {
   transform: rotate(90deg) scale(0.3);
   float: left;
@@ -23,17 +19,9 @@ header h2 {
 	text-align: center;
 }
 
-img {
-	height=848px;
-	width=600px;
+footer {
+	margin-top: 80px;
 }
 
-p {
-	margin-bottom: 0;
-}
 
-.download {
-	padding-top: 40px;
-	padding-bottom: 80px;
-}
 

@@ -1,6 +1,6 @@
 function setup() {
-	var canvas = createCanvas(window.innerWidth, window.innerHeight);
-	canvas.parent('canvasContainer');
+	var cnv = createCanvas(window.innerWidth, window.innerHeight);
+	cnv.parent('canvasContainer');
 }
 	
 function draw() {
@@ -15,6 +15,10 @@ function draw() {
  		text("nino", mouseX-50, mouseY-50);
  		text("falanga", mouseX-25, mouseY-25);
  	}
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 
