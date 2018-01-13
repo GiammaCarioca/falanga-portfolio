@@ -1,5 +1,6 @@
 function setup() {
-	createCanvas(window.innerWidth, window.innerHeight);
+	var canvas = createCanvas(window.innerWidth, window.innerHeight);
+	canvas.parent('canvasContainer');
 }
 	
 function draw() {
