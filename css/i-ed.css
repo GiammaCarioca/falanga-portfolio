@@ -2,23 +2,35 @@ body {
 	background: rgb(255, 190, 198); /* rosa 2 */
 }
 
-header {
+.flex-nav {
+	width: 900px;
 	display: flex;
-	justify-content: center;
-	margin-top: 90px;
-	margin-bottom: 60px; 
+	justify-content: space-between;
+	align-items: center;
+	margin: 120px auto 60px auto;
+	padding: 0;
 }
 
-header h2 {
-	padding: 0;  
+.heading {
+	flex: 1;
+}
+
+h2 {
+	padding: 0;
 }
 
 .arrow_left {
   transform: rotate(90deg) scale(0.3);
-  float: left;
-  position: absolute;
-  top: 45px;
-  left: 60px;
+  margin-left: -38px;
+  margin-top: -38px;
+  margin-bottom: -38px;
+}
+
+.arrow_right {
+  transform: rotate(270deg) scale(0.3);
+  margin-right: -38px;
+  margin-top: -38px;
+  margin-bottom: -38px;
 }
 
 .container {
@@ -26,16 +38,11 @@ header h2 {
 	height: 100vh;
 	margin: 0 auto;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .description {
 	width: 300px; 
-	height: 552px;
-}
-
-.figure {
-	width: 382px;
 	height: 552px;
 }
 

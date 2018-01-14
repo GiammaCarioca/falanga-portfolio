@@ -4,14 +4,18 @@
 		<meta charset="utf-8">
 		<title>#PlasticCulture</title>
 		<link rel="stylesheet" href="css/plastic-culture.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="js/main.js"></script>
+		<link rel="stylesheet" href="css/skippr.css">
 	</head>
 	<body>
-		<header>
-			<h2>#PlasticCulture</h2>
+		<header class="flex-nav">
 			<div class="arrow_left">
-				<a href="index.html" target="_self"><img src="img/arrow_pink.png"></a>
+				<a href="i-ed.html" target="_self"><img src="img/arrow_pink.png"></a>
+			</div>
+			<div class="heading">
+				<h2>#PlasticCulture</h2>
+			</div>
+			<div class="arrow_right">
+				<a href="daft-funk.html" target="_self"><img src="img/arrow_pink.png"></a>
 			</div>
 		</header>
 		<article class="container">
@@ -20,13 +24,24 @@
 				<span>During the last 50 years electronic media such as radio, television and today the Internet have covered the globe and transformed nearly every aspect of our lives. They extend their influence upon our culture, our behavior, our view, our community and our country. Through media the advertising industry is moulding consumers for profit.</span>
 			</div>
 			<div class="box-2">
-				<video width="572px" height="304px" autoplay loop muted="muted">
+				<video width="572px" height="304px" autoplay loop>
 					<source src="assets/374697464.mp4" type="video/mp4">
 				</video>
 			</div>
-			<div class="box-3">
-				<img src="img/slider.png" alt="slider">
-			</div>
+				<div class="box-3" id="container">
+          <div id="theTarget">
+            <div style="background-image: url(img/plastic-09.jpg)"></div>
+            <div style="background-image: url(img/plastic-01.jpg)"></div>
+            <div style="background-image: url(img/plastic-02.jpg)"></div>
+            <div style="background-image: url(img/plastic-03.jpg)"></div>
+            <div style="background-image: url(img/plastic-04.jpg)"></div>
+            <div style="background-image: url(img/plastic-05.jpg)"></div>
+            <div style="background-image: url(img/plastic-06.jpg)"></div>
+            <div style="background-image: url(img/plastic-07.jpg)"></div>
+            <div style="background-image: url(img/plastic-08.jpg)"></div>
+            
+          </div>    
+        </div>
 			<div class="box-4">
 				<span>This project deals with the effects of mass media and advertising on contemporary popular culture and how they affect consumer behaviors and psychological reactance over a long­term period. Often the general public is not aware of these effects, therefore as a communication designer, I feel responsible for filling this awareness gap.</span><p></p>
 				<span>The project invites the audience to perceive contemporary pop culture in a stereotypical way as being attractive but shallow; and define our contemporary popular culture as a Plastic Culture, meant as “capable of being shaped or extruded in a variety of shapes”.</span><p></p>
@@ -37,5 +52,12 @@
 			<footer>
 				<p>Nino Falanga, 2017 | All rights are reserved.</p>
 		</footer>
+
+	<!-- JavaScript -->
+	<script src="js/libs/jquery-1.11.2.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<!-- JavaScript -->
+
 	</body>
 </html>
